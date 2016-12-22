@@ -1,0 +1,39 @@
+#study-section {
+	padding-bottom: 150px;
+	h2 {
+		padding-top: 95px;
+		font-family: $font-main;
+		font-weight: bold;
+		font-size: $font-heading-1;
+		color: $text-dark;
+	}
+	h3 {
+		font-family: $font-main;
+		font-weight: bold;
+		font-size: $font-heading-2;
+		color: $text-dark;
+	}
+	p {
+		padding-top: 30px;
+		font-family: $font-text;
+		font-weight: light;
+		font-size: $font-size-paragraph;
+		color: $text-dark;
+		line-height: 30px;
+	}
+	.line {
+		margin-top: 30px;
+		width: 35px;
+		height: 5px;
+		background-color: $elements-orange;
+	}
+	.study-images {
+		padding-top: 200px;
+	}
+	img {
+		padding-top: 100px;
+	}
+	.hide {
+		display: none;
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-pawlowicz/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasz-pawlowicz/portfolio/issues"
+  },
+  "homepage": "https://github.com/lukasz-pawlowicz/portfolio#readme",
+  "devDependencies": {
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "jshint": "^2.9.4"
+  }
+}
