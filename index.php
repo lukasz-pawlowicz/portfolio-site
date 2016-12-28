@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-default" role="navigation">
+			<!-- <nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" aria-expanded="true" data-target="#bs-example-navbar-collapse-1">
@@ -37,9 +37,9 @@
 						<li><a href="#">CV</a></li>
 						<li><a href="#">KONTAKT</a></li>
 				    </ul>
-				</div><!-- /.navbar-collapse -->
+				</div>
 			</div>
-			</nav>
+			</nav> -->
 			<div class="container">
 				<div class="row">
 					<div class="header-slogan col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -57,7 +57,7 @@
 		<section id="about-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-offset-7 col-lg-5 col-md-offset6 col-md-6 col-sm-12 col-xs-12">
+					<div class="col-lg-offset-7 col-lg-5 col-md-offset-6 col-md-6 col-sm-12 col-xs-12">
 						<h2>CZEŚĆ</h2>
 						<h3>KILKA SŁÓW O MNIE</h3>
 						<div class="line"></div>
@@ -76,8 +76,9 @@
 						<h2>DOŚWIADCZENIE</h2>
 						<h3>TECHNOLOGIE, KTÓRYCH UŻYWAM</h3>
 						<div class="line"></div>
-						<p>Curabitur et dapibus leo. Donec eleifend pharetra sem, et interdum nunc semper vel. Sed interdum magna eu faucibus faucibus. Nulla varius faucibus arcu, eget aliquet tortor sollicitudin ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sollicitudin felis quis varius porta. Donec sit amet diam a elit pulvinar pretium. </p>
-						<p class="button">POBIERZ MOJE CV</p>
+						<p>Potrafię posługiwać się wymienionymi technologiami. Staram się ciągle doskonalić moje umiejętności poprzez tworzenie nowych projektów.<br>Pracując na stanowisku Junior Frontend Developera miałbym okazję szlifować swoją wiedzę i tworzyć wymagające rzeczy.
+						</p>
+						<a href="http://lukaszpawlowicz.pl/cv-lukaszpawlowicz.pdf"><p class="button">POBIERZ MOJE CV</p></a>
 					</div>
 					<div class="technology-images">
 						<div class="col-lg-offset-1 col-lg-1 col-md-2 col-sm-3 col-xs-3">
@@ -108,7 +109,7 @@
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pagination-centered">
 						<h2>OSTATNIE PROJEKTY</h2>
 						<div class="line pagination-centered"></div>
-						<p>Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla dapibus dui, at facilisis enim odio at velit. </p>
+						<p>Prezentuję listę projetów, którą ciągle uaktualniam.</p>
 					</div>
 				</div>
 				<div class="row slide">
@@ -121,14 +122,14 @@
 				        </ol>
 				        <div class="carousel-inner">
 				        	<div class="item active">
-								<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+								<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
 									<img class="img-responsive" src="img/portfolio-2.png" alt="css3-logo">
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+								<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
 									<h2 class="portfolio-name">
-										YOGA SITE TEMPLATE
+										YOGA SITE
 									</h2>
-									<p class="portfolio-description">Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla dapibus dui, at facilisis enim odio at velit.</p>
+									<p class="portfolio-description">Strona internetowa zakodowana z gotowego pliku PSD. Strona dotyczy szkoły yogi.</p>
 									<div class="portfolio-information">
 										<table>
 											<tr>
@@ -139,7 +140,7 @@
 													<p>:</p>
 												</td>
 												<td>
-													<p><a href="http://lukaszpawlowicz.pl/portfolio/yoga.html">Link</a></p>
+													<p><a href="http://lukaszpawlowicz.pl/portfolio/yoga/index.html">Link</a></p>
 												</td>
 											</tr>
 											<tr>
@@ -169,13 +170,12 @@
 								</div>
 							</div>
 							<div class="item">
-								<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-									<img class="img-responsive" src="img/portfolio-2.png" alt="css3-logo">
+								<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+									<img class="img-responsive" src="img/portfolio-1.png" alt="css3-logo">
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-									<h2 class="portfolio-name">
-										YOGA </h2>
-									<p class="portfolio-description">Donec sodales eros sed efficitur mattis. Integer tincidunt, felis a placerat maximus, eros nulla dapibus dui, at facilisis enim odio at velit.</p>
+								<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+									<h2 class="portfolio-name">Portfolio </h2>
+									<p class="portfolio-description">Strona portfolio zakodowana w części z pliku PSD. Przedstawiać tu będę wykonane projekty.</p>
 									<div class="portfolio-information">
 										<table>
 											<tr>
@@ -186,7 +186,7 @@
 													<p>:</p>
 												</td>
 												<td>
-													<p><a href="http://lukaszpawlowicz.pl/portfolio/yoga.html">Link</a></p>
+													<p><a href="http://lukaszpawlowicz.pl/portfolio/portfolio/index.php">Link</a></p>
 												</td>
 											</tr>
 											<tr>
@@ -197,7 +197,7 @@
 													<p>:</p>
 												</td>
 												<td>
-													<p><a href="https://github.com/lukasz-pawlowicz/yoga-template">Link</a></p>
+													<p><a href="https://github.com/lukasz-pawlowicz/portfolio-site">Link</a></p>
 												</td>
 											</tr>
 											<tr>
@@ -208,7 +208,7 @@
 													<p>:</p>
 												</td>
 												<td>
-													<p>Bootstrap, jQuery</p>
+													<p>Bootstrap, jQuery, Formularz PHP</p>
 												</td>
 											</tr>
 										</table>
@@ -230,17 +230,17 @@
 						<h2>NAUKA</h2>
 						<h3>PLANY NAUKI NA NAJBLIŻSZĄ PRZYSZŁOŚĆ</h3>
 						<div class="line"></div>
-						<p>Curabitur et dapibus leo. Donec eleifend pharetra sem, et interdum nunc semper vel. Sed interdum magna eu faucibus faucibus. Nulla varius faucibus arcu, eget aliquet tortor sollicitudin ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sollicitudin felis quis varius porta. Donec sit amet diam a elit pulvinar pretium. </p>
+						<p>Ciągle poszerzam zakres swojej wiedzy. Frontend i technologie z nim związane wymagają stałego kontaktu z nowościami w branży. Po zaawansowanym przyswojeniu wiedzyz czystego Javascriptu chciałbym obrać przedstawione obok kierunki.</p>
 					</div>
 					<div class="study-images">
 						<div class="col-lg-offset-1 col-lg-1 col-md-2 col-sm-3 col-xs-3">
-							<img class="img-responsive first-image" src="img/html5.png" alt="html5-logo">
+							<img class="img-responsive first-image" src="img/wordpress.png" alt="wordpress-logo">
 						</div>
 						<div class="col-lg-offset-1 col-lg-1 col-md-2 col-sm-3 col-xs-3">
-							<img class="img-responsive second-image" src="img/css3.png" alt="css3-logo">
+							<img class="img-responsive second-image" src="img/angular.png" alt="angular-logo">
 						</div>
 						<div class="col-lg-offset-1 col-lg-1 col-md-2 col-sm-3 col-xs-3">
-							<img class="img-responsive third-image" src="img/js.png" alt="js-logo">
+							<img class="img-responsive third-image" src="img/react.png" alt="react-logo">
 						</div>
 					</div>
 				</div>
@@ -257,9 +257,9 @@
 						<h3>SZCZEGÓŁOWE INFORMACJE ZAWARTE W PLIKU</h3>
 						<div class="line"></div>
 						<p>Curabitur et dapibus leo. Donec eleifend pharetra sem, et interdum nunc semper vel. Sed interdum magna eu faucibus faucibus. Nulla varius faucibus arcu, eget aliquet tortor sollicitudin ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sollicitudin felis quis varius porta. Donec sit amet diam a elit pulvinar pretium. </p>
-						<p class="button">POBIERZ MOJE CV</p>
-						<p class="button">GITHUB</p>
-						<p class="button">LINKEDIN</p>
+						<a href="http://lukaszpawlowicz.pl/cv-lukaszpawlowicz.pdf"><p class="button">POBIERZ MOJE CV</p></a>
+						<a href="https://github.com/lukasz-pawlowicz/portfolio-site"><p class="button">GITHUB</p></a>
+						<a href="http://linkedin.com/in/lukasz-pawlowicz"><p class="button">LINKEDIN</p></a>
 					</div>
 				</div>
 			</div>
@@ -297,6 +297,15 @@
 				</div>
 			</div>	
 		</section>
+		<footer>	
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+						<p>copyright: Łukasz Pawłowicz e-mail: kontakt@lukaszpawlowicz.pl</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 
 

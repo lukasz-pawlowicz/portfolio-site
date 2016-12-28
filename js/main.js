@@ -68,12 +68,12 @@ $(document).ready(function() {
     var $studyImage2 = $(".second-image");
     var $studyImage3 = $(".third-image");
     var $studyText = $("#study-section").find("p");
-    var $techText = "Curabitur et dapibus leo. Donec eleifend pharetra sem, et interdum nunc semper vel. Sed interdum magna eu faucibus faucibus. Nulla varius faucibus arcu, eget aliquet tortor sollicitudin ut. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sollicitudin felis quis varius porta. Donec sit amet diam a elit pulvinar pretium.";
+    var $techText = "Ciągle poszerzam zakres swojej wiedzy. Frontend i technologie z nim związane wymagają stałego kontaktu z nowościami w branży. Po zaawansowanym przyswojeniu wiedzy z czystego Javascriptu chciałbym obrać przedstawione obok kierunki.";
     console.log($studyText.text());
 
     $studyImage1.on("mouseenter", function() { 
     	$studyText.fadeOut(function() {
-  			$(this).text("World").fadeIn();
+  			$(this).text("Wordpress to obecnie najpopularniejszy system CMS. Poznanie struktury szablonów Wordpressa i podstaw języka PHP pozwoli mi przekształcać statyczne i tworzyć od nowa witryny, które będą mogły być proste w zarządzaniu i edycji dla zleceniodwców.").fadeIn();
 		});
 	});
     $studyImage1.on("mouseleave", function() { 
@@ -83,7 +83,7 @@ $(document).ready(function() {
 	});
 	$studyImage2.on("mouseenter", function() { 
     	$studyText.fadeOut(function() {
-  			$(this).text("World").fadeIn();
+  			$(this).text("Otwarty framework JS od Google'a, dzięki któremu można tworzyć aplikacje, które działają dynamicznie. Aplikacje w Angular JS można tworzyć szybko organizując przy tym kod. Zaletą jest to, że framework można poznawać stopniowo i uczyć się na podstawach.").fadeIn();
 		});
 	});
     $studyImage2.on("mouseleave", function() { 
@@ -93,7 +93,7 @@ $(document).ready(function() {
 	});
 	$studyImage3.on("mouseenter", function() { 
     	$studyText.fadeOut(function() {
-  			$(this).text("World").fadeIn();
+  			$(this).text("React - popularna biblioteka służąca do budowy interfejsów użytkowników. Dzięki jego rakrywności można szybko określać komponenty, które wymagają aktualizacji danych w naszym interfejsie bez przeładowywania całości - jest to jedna z najpopularniejszych bibliotek JS").fadeIn();
 		});
 	});
     $studyImage3.on("mouseleave", function() { 

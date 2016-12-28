@@ -1,0 +1,65 @@
+ /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        .carousel-inner {
+            padding-bottom: 25px;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        #about-section {
+            margin-top: 0px;
+            background: transparent;
+            height: auto;
+            h2 {
+                padding-top: 50px;
+            }
+        }
+        #portfolio-section {
+            .slide {
+                padding-top: 0px;
+                .carousel-control {
+                    margin-top: 525px;
+                }
+                img {
+                    padding-top: 50%;
+                }
+            }
+        }
+        #study-section {
+            padding-bottom: 100px;
+            img {
+                padding-top: 10px;
+            }
+        }
+        #cv-section {
+            h2 {
+                padding-top: 60px;
+            }
+        }
+         
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        #portfolio-section {
+            .carousel-inner {
+                img {
+                    display: none;
+                }
+            }
+        }
+        #cv-section {
+            img {
+                padding-top: 50px;
+            }
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {  
+    }
